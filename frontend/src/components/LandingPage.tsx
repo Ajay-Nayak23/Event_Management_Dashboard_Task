@@ -77,7 +77,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               The all-in-one platform for event organizers and attendees. Create, manage, and discover events that matter.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
+              {/* <button
                 onClick={onGetStarted}
                 className="bg-white text-indigo-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center"
               >
@@ -86,7 +86,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               </button>
               <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-indigo-900 transition-colors">
                 Watch Demo
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               From event creation to attendee management, we've got you covered with powerful features.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
@@ -119,7 +119,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-indigo-600 text-white">
+      {/* <section className="py-20 bg-indigo-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -140,7 +140,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
       <section className="py-20 bg-white">
@@ -153,7 +153,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               See what our customers have to say about EventHub
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-6">
